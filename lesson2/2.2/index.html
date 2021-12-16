@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main>
+        <div class="products">
+            <div class="container">
+                <input class="burger__size" name="size" type="radio" value="big" id="big" checked data-price= "100" data-calories="40">
+                <label class="burger__size-label" for="big">big</label>
+                <input class="burger__size" name="size" type="radio" value="small" id="small" data-price= "50" data-calories="20">
+                <label class="burger__size-label" for="small">small</label>
+            </div>
+            <div class="container">
+                <input class="burger__size" name="stuffing" type="radio" value="chesee" id="chesee" checked data-price= "10" data-calories="20">
+                <label class="burger__size-label" for="chesee">chesee</label>
+                <input class="burger__size" name="stuffing" type="radio" value="salad" id="salad" data-price= "20" data-calories="5">
+                <label class="burger__size-label" for="salad">salad</label>
+                <input class="burger__size" name="stuffing" type="radio" value="potato" id="potato" data-price= "15" data-calories="10">
+                <label class="burger__size-label" for="potato">potato</label>
+            </div>
+            <div class="container">
+                <input class="burger__size" name="toping" type="checkbox" value="flavoring" id="flavoring" data-price= "15" data-calories="0">
+                <label class="burger__size-label" for="flavoring">flavoring</label>
+                <input class="burger__size" name="toping" type="checkbox" value="mayo" id="mayo" data-price= "20" data-calories="5">
+                <label class="burger__size-label" for="mayo">mayo</label>
+            </div>
+
+            <div class="result">
+                <button class="result__button" type="button">Расчитать</button>
+                <p class="result__price">Итоговая цена <span class="result__summprice">0</span></p>
+                <p class="result__calories">Калории сумма <span class="result__summcalories">0</span></p>
+            </div>
+        </div>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
