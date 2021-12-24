@@ -1,0 +1,56 @@
+[
+  {
+    "product_img": "img/fetured_items1.jpg",
+    "id_product": 1,
+    "product_name": "ellery x m'o capsule1",
+    "price": 51
+  },
+  {
+    "product_img": "img/fetured_items2.jpg",
+    "id_product": 2,
+    "product_name": "ellery x m'o capsule2",
+    "price": 52
+  },
+  {
+    "product_img": "img/fetured_items3.jpg",
+    "id_product": 3,
+    "product_name": "ellery x m'o capsule3",
+    "price": 53
+  },
+  {
+    "product_img": "img/fetured_items4.jpg",
+    "id_product": 4,
+    "product_name": "ellery x m'o capsule4",
+    "price": 54
+  },
+  {
+    "product_img": "img/fetured_items5.jpg",
+    "id_product": 5,
+    "product_name": "ellery x m'o capsule5",
+    "price": 55
+  },
+  {
+    "product_img": "img/fetured_items6.jpg",
+    "id_product": 6,
+    "product_name": "ellery x m'o capsule6",
+    "price": 56
+  },
+  {
+    "product_img": "img/fetured_items7.jpg",
+    "id_product": 7,
+    "product_name": "ellery x m'o capsule7",
+    "price": 57
+  },
+  {
+    "product_img": "img/fetured_items8.jpg",
+    "id_product": 8,
+    "product_name": "ellery x m'o capsule8",
+    "price": 59
+  },
+  {
+    "product_img": "img/fetured_items9.jpg",
+    "id_product": 9,
+    "product_name": "ellery x m'o capsule9",
+    "price": 58
+  }
+]
