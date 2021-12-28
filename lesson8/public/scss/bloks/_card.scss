@@ -1,0 +1,220 @@
+.card {
+  height: 175px;
+  background-color: $snow;
+  display: flex;
+  align-items: center;
+
+  .card__title {
+    @include font(24px, 28px, 400);
+    color: $dark-pink;
+    text-transform: uppercase;
+  }
+
+  &__info-title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    text-transform: uppercase;
+    width: 67%;
+    padding: 0 0 42px 0;
+  }
+}
+
+.card__flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__info-subtitle-color {
+  padding: 0 0 0 7px;
+  color: $dim-gray;
+}
+
+.card__info-subtitle-number {
+  border: 1px solid $platinum;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  color: $dim-gray;
+  padding: 1px 16px;
+  margin: 0 0 0 40px;
+}
+
+.card__info-subtitle-pink {
+  padding: 0 0 0 7px;
+  color: $dark-pink;
+}
+
+.card__icon {
+  fill: $vampire-grey;
+}
+
+.card__button {
+  background-color: transparent;
+  border: none;
+  padding: 0 22px 0 0;
+}
+
+.card_info-title-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.card__info-subtitle {
+  padding: 0 0 8px 0;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.card__box {
+  padding: 96px 0 0 0;
+}
+
+.card__info {
+  background-color: $white;
+  padding: 22px 0 0 31px;
+}
+
+.card__holder {
+  display: flex;
+  box-shadow: 30px $black;
+}
+
+.card__info-box {
+  display: flex;
+}
+
+.card__container {
+  background-color: $lavender;
+}
+
+.card__button-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__shiping {
+  padding: 113px 0 0 129px;
+}
+
+.card__shiping-title {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.card__shiping-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__shiping-input {
+  padding: 0 0 0 15px;
+  margin: 21px 0 0 0;
+  min-height: 45px;
+  width: 345px;
+}
+
+.card__shiping-button {
+  margin: 24px 0 0 0;
+  width: 100px;
+  height: 34px;
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 13px;
+  background-color: $white;
+  border: 1px solid $dark-grey;
+  transition: background-color 0.2s linear, color 0.1s;
+}
+
+.card__shiping-button:hover {
+  background-color: $gray-gray;
+}
+
+.card__shiping-button:active {
+  color: $white;
+}
+
+.card__shopping-button {
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  padding: 16px 40px;
+  margin: 72px 0 128px 0;
+  background-color: $white;
+  border: 1px solid $dark-grey;
+  color: $black;
+  transition: background-color 0.2s ease-in, color 0.1s;
+}
+
+.card__shopping-button:hover {
+  background-color: $gray-gray;
+}
+
+.card__shopping-button:active {
+  color: $white;
+}
+
+.card__checkout {
+  margin: 57px 0 0 0;
+  padding: 39px 34px 42px 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: $iron-gray;
+}
+
+.card__checkout-text {
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 13px;
+  font-weight: 400;
+  padding: 0 0 12px 0;
+}
+
+.card__checkout-subtext {
+  padding: 0 0 0 30px;
+}
+
+.card__shiping-title-pink {
+  padding: 0 0 0 30px;
+  color: $dark-pink;
+  font-weight: 700;
+}
+
+.card__checkout-hr {
+  color: $black;
+  width: 100%;
+  margin: 21px 0 17px 0;
+  height: 1px;
+}
+
+.card__chekout-button {
+  width: 100%;
+  padding: 15px 41px;
+  text-transform: uppercase;
+  color: $white;
+  background-color: $dark-pink;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 300;
+  border: none;
+  transition: background-color 0.2s linear, color 0.2s ease-in, border 0.1s;
+}
+
+.card__chekout-button:hover {
+  background-color: $white;
+  color: $dark-pink;
+  border: 1px solid $dark-pink;
+}
+
+.card__chekout-button:active {
+  background-color: $gray-gray;
+}
+
+.card__margin-top {
+  margin: 40px 0 0 0;
+}

@@ -1,0 +1,138 @@
+.registration-input {
+  background-color: $lavender;
+  padding: 31px 0 0 0;
+
+  .registration-input__box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .registration-input__input {
+    width: 94%;
+    height: 45px;
+    margin: 21px 0 0 0;
+    padding: 0 0 0 17px;
+    background-color: $lavender;
+    border: 1px solid $dark-grey;
+  }
+
+  .registration-input__subtitle {
+    padding: 33px 0 0 0;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: $black;
+  }
+
+  .registration-input__radio-button {
+    margin: 31px 10px 0 0;
+    background-color: $lavender;
+  }
+
+  .registration-input__radio-label {
+    padding: 0 20px 0 0;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 13px;
+    color: $night;
+  }
+
+  .registration-input__text {
+    max-width: 360px;
+    padding: 16px 0 39px 0;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: $slate-gray;
+  }
+
+  .registration-input__radio-display {
+    display: none;
+  }
+
+  .registration-input__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $dark-pink;
+    border: none;
+    padding: 16px 29px;
+    margin: 0 0 96px 0;
+    transition: fill 0.2s ease-in, background-color 0.3s ease-in, outline 0.1s;
+  }
+
+  .registration-input__button-img {
+    fill: $white;
+  }
+
+  .registration-input__button:hover {
+    background-color: $white;
+    outline: 1px solid $dark-pink;
+  }
+
+  .registration-input__button:hover .registration-input__button-img {
+    fill: $dark-pink;
+  }
+
+  .registration-input__button:hover .registration-input__button-text {
+    color: $dark-pink;
+  }
+
+  .registration-input__button:active {
+    background-color: $gray;
+    outline: 1px solid $silver;
+  }
+
+  .registration-input__button:active .registration-input__button-text {
+    color: $silver;
+  }
+
+  .registration-input__button:active .registration-input__button-img {
+    fill: $silver;
+  }
+
+  .registration-input__button-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: $white;
+    text-transform: uppercase;
+    padding: 0 20px 0 0;
+  }
+
+  .registration-input__container {
+    display: flex;
+  }
+
+  .registration-input__input:focus {
+    outline: 1px solid $dark-pink;
+    background-color: $white;
+  }
+
+  @media (max-width: 1024px) {
+    .registration-input__radio-display {
+      display: inline;
+    }
+  }
+
+  @media (max-width: 667px) {
+    .registration-input__form {
+      width: 100%;
+    }
+
+    .registration-input__container {
+      flex-direction: column;
+    }
+
+    .registration-input__button {
+      margin: 0 0 7px 0;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .registration-input {
+    background-color: $lavender;
+    padding: 7px 0 0 0;
+  }
+}

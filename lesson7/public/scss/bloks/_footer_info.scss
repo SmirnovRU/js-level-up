@@ -1,0 +1,145 @@
+.footer-info {
+  background-image: url(../img/footer_info_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .footer-info__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-info__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-info__img {
+    padding: 87px 0 0 0;
+  }
+
+  .footer-info__text {
+    max-width: 360px;
+    text-align: center;
+    padding: 35px 0 126px 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .footer-info__subtext {
+    font-style: italic;
+  }
+
+  .footer-info__title {
+    padding: 0 65px 0 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+  }
+
+  .footer-info__subtitle {
+    padding: 0 65px 0 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .footer-info__form {
+    display: flex;
+    justify-content: center;
+    padding: 32px 65px 0 0;
+  }
+
+  .footer-info__input {
+    padding: 0 0 0 22px;
+    width: 220px;
+    height: 49px;
+    border-radius: 25px 0 0 25px;
+    border: none;
+    background-color: $gray-cloud;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: $black;
+  }
+
+  .footer-info__input:focus {
+    outline: 1px solid $dark-pink;
+    background-color: $light-gray;
+  }
+
+  .footer-info__button {
+    height: 49px;
+    width: 100px;
+    border-radius: 0 25px 25px 0;
+    background-color: $dark-pink;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: $white;
+    transition: outline 0.1s, color 0.2s linear, background-color 0.2s ease-in,
+      border 0.1s;
+  }
+
+  .footer-info__button:hover {
+    outline: 1px solid $light-pink;
+    color: $light-red;
+    background-color: $white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .footer-info__button:active {
+    color: $dark-gray;
+    border: 1px solid $dark-grey;
+    background-color: $slate-gray;
+    outline: none;
+  }
+
+  @media (max-width: 1024px) {
+    .footer-info__container {
+      flex-direction: column;
+    }
+
+    .footer-info__img {
+      padding: 54px 0 0 0;
+    }
+
+    .footer-info__text {
+      padding: 35px 0 48px 0;
+    }
+
+    .footer-info__form {
+      padding: 27px 0 140px;
+    }
+
+    .footer-info__title {
+      padding: 0;
+    }
+
+    .footer-info__subtitle {
+      padding: 0;
+    }
+  }
+
+  @media (max-width: 667px) {
+    .footer-info__text {
+      padding: 35px 0 59px 0;
+    }
+
+    .footer-info__subtitle {
+      font-size: 14px;
+      line-height: 21px;
+    }
+
+    .footer-info__form {
+      padding: 22px 0 110px;
+    }
+  }
+}

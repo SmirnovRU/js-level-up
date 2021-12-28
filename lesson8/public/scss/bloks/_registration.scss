@@ -1,0 +1,12 @@
+.registration {
+  height: 175px;
+  background-color: $snow;
+  display: flex;
+  align-items: center;
+
+  .registration__title {
+    @include font(24px, 28px, 400);
+    color: $dark-pink;
+    text-transform: uppercase;
+  }
+}

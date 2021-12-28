@@ -1,0 +1,179 @@
+.fetured-items {
+  margin: 97px 0 0 0;
+
+  .fetured-items__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 48px 0 0 0;
+  }
+
+  .fetured-items__tagline {
+    max-width: 315px;
+    @include font(14px, 17px, 300);
+    color: $dark-gray;
+    padding: 13px 0 18px 18px;
+  }
+
+  .fetured-items__title {
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .fetured-items__text {
+    padding: 6px 0 0 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    color: $gray;
+  }
+
+  .fetured-items__items {
+    background-color: $ghost-white;
+    margin: 0 0 30px;
+    position: relative;
+  }
+
+  .fetured-items__items:hover .fetured-items__dropbox {
+    opacity: 0.9;
+  }
+
+  .fetured-items__link {
+    text-decoration: none;
+  }
+
+  .fetured-items__subtitle {
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 16px;
+    color: $night;
+    padding: 25px 0 0 18px;
+  }
+
+  .fetured-items__price {
+    font-size: 16px;
+    line-height: 19px;
+    color: $dark-pink;
+    padding: 0 0 20px 18px;
+  }
+
+  .fetured-items__dropbox {
+    @include flex-center;
+    background-color: $dark-gray;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 72%;
+  }
+
+  .fetured-items__dropbox-button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid $white;
+    padding: 14px;
+  }
+
+  .fetured-items__dropbox-button:hover {
+    background-color: $slate-gray;
+  }
+
+  .fetured-items__dropbox-button:active {
+    border: 3px solid $ghost-white;
+  }
+
+  .fetured-items__dropbox-button:active .fetured-items__dropbox-title {
+    font-weight: 700;
+  }
+
+  .fetured-items__dropbox-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: $white;
+    padding: 0 0 0 11px;
+  }
+
+  .fetured-items__dropbox-img {
+    background: transparent;
+  }
+
+  .fetured-items__box {
+    display: flex;
+    justify-content: center;
+    padding: 18px 0 0 0;
+  }
+
+  .fetured-items__button {
+    border: 1px solid $light-pink;
+    color: $light-red;
+    padding: 14px 38px;
+    background-color: $white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    transform: 0.2s;
+  }
+
+  .fetured-items__button:hover {
+    color: $white;
+    border: 1px solid $white;
+    background-color: $light-pink;
+    cursor: pointer;
+  }
+
+  .fetured-items__button:active {
+    color: $dark-gray;
+    border: 1px solid $dark-grey;
+    background-color: $slate-gray;
+  }
+
+  @media (max-width: 1024px) {
+    .fetured-items__list {
+      margin: 73px 0 0 0;
+      display: flex;
+    }
+
+    .fetured-items__items {
+      margin: 0 0 16px;
+    }
+
+    .fetured-items__box {
+      padding: 16px 0 0 0;
+    }
+
+    .fetured-items__text {
+      padding: 3px 0 0 0;
+    }
+  }
+  @media (max-width: 667px) {
+    .fetured-items__list {
+      margin: 65px 0 0 0;
+      justify-content: center;
+    }
+
+    .fetured-items__box {
+      padding: 25px 0 0 0;
+    }
+
+    .fetured-items__items {
+      margin: 0 0 16px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .fetured-items {
+    margin: 155px 0 0 0;
+  }
+}
+
+@media (max-width: 667px) {
+  .fetured-items {
+    margin: 64px 0 0 0;
+  }
+}

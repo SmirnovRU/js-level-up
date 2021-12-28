@@ -1,0 +1,69 @@
+.registration-info {
+  padding: 33px 0 0 128px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: $night;
+  width: 55%;
+
+  .registration-info__title {
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+
+  .registration-info__text {
+    padding: 22px 0;
+  }
+
+  .registration-info__item {
+    padding: 0 0 16px 43px;
+    position: relative;
+  }
+
+  .registration-info__item::before {
+    position: absolute;
+    top: 7px;
+    left: 0px;
+    width: 20px;
+    height: 16px;
+    content: "";
+    background-image: url(../img/registration_check_mark.svg);
+    background-size: 20px 16px;
+  }
+
+  @media (max-width: 1024px) {
+    .registration-info {
+      font-size: 16px;
+      line-height: 19px;
+    }
+
+    .registration-info__text {
+      padding: 32px 0 22px 0;
+      font-size: 16px;
+      line-height: 19px;
+    }
+
+    .registration-info__item {
+      font-size: 16px;
+      line-height: 19px;
+    }
+  }
+  @media (max-width: 667px) {
+    .registration-info__list {
+      padding: 0 0 100px 0;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .registration-info {
+      padding: 33px 0 0 22px;
+      width: 50%;
+    }
+  }
+}
+@media (max-width: 667px) {
+  .registration-info {
+    padding: 33px 0 0 0;
+    width: 100%;
+  }
+}
