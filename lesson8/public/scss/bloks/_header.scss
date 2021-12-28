@@ -1,0 +1,251 @@
+.header {
+  background-color: $black;
+
+  .header__title {
+    @include font(14px, 17px, 700);
+    padding: 9px 0 4px 33px;
+    text-transform: uppercase;
+  }
+
+  .header__logo {
+    padding: 0 20px 0 0;
+  }
+
+  .header__box {
+    display: flex;
+    align-items: center;
+  }
+
+  .header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 75px;
+  }
+
+  .header__menu {
+    position: absolute;
+    background-color: $white;
+    transition: transform 0.3s;
+    transform: translate(700px, 343px);
+  }
+
+  .header__menu-icon {
+    fill: $silver;
+  }
+
+  .header__menu-button:active .header__menu-icon {
+    fill: $slate-gray;
+  }
+
+  .header__menu-icon:hover {
+    fill: $night;
+  }
+
+  .header__menu-button {
+    padding: 16px 0 0 203px;
+    background-color: transparent;
+    border: none;
+  }
+
+  .header__icon {
+    fill: $light-silver;
+    transition: fill 0.1s linear;
+  }
+
+  .header__icon:hover {
+    fill: $silver;
+  }
+
+  .header__icon:active {
+    fill: $snow;
+  }
+
+  .header__dropdown {
+    display: flex;
+    height: 75px;
+    align-items: center;
+  }
+
+  .header__cart-block {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.62);
+    border-radius: 5px;
+    box-sizing: border-box;
+    right: 0;
+    top: 75px;
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+    color: black;
+    width: 400px;
+  }
+
+  .header__cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 5px;
+  }
+
+  .header__dropdown:hover .header__menu {
+    display: block;
+    position: absolute;
+    transform: translate(00px, 420px);
+    width: 232px;
+    height: 765px;
+    box-shadow: 20px $silver;
+    z-index: 2;
+  }
+
+  .header__dropdown:hover .header__icon {
+    fill: $silver;
+  }
+
+  .header__search {
+    background: transparent;
+    border: none;
+    margin: 0 0 0 10px;
+  }
+
+  .header__search-form {
+    display: flex;
+    align-items: center;
+  }
+
+  .header__search-img {
+    fill: $white;
+    height: 28px;
+  }
+
+  .header__search-img:hover {
+    fill: $gray;
+  }
+
+  .header__button {
+    background: transparent;
+    border: none;
+  }
+
+  .header__basket {
+    background-color: transparent;
+    border: none;
+  }
+
+  .header__profile {
+    padding: 0 33px 0 33px;
+  }
+
+  .header__product-price {
+    margin: 20px;
+    font-weight: 500;
+  }
+
+  .header__product-bio {
+    display: flex;
+  }
+
+  .header__product-desc {
+    margin: 0 0 0 10px;
+  }
+
+  .header__right-block {
+    text-align: right;
+    display: flex;
+    justify-content: center;
+  }
+
+  .header__del-btn {
+    margin-top: 5px;
+    background-color: #2f2a2d;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    color: #fafafa;
+    border-radius: 5px;
+    transition: all ease-in-out 0.4s;
+    cursor: pointer;
+    height: 40px;
+  }
+  .header__buy-btn {
+    margin: 0 42.5%;
+  }
+
+  @media (max-width: 1024px) {
+    .header__logo {
+      padding: 0 41px 0 16px;
+    }
+
+    .header__basket {
+      padding: 0 16px 0 0;
+    }
+  }
+
+  @media (max-width: 667px) {
+    .header__basket {
+      display: none;
+    }
+
+    .header__profile {
+      display: none;
+    }
+  }
+}
+.header__buy-btn {
+  margin: 0 41.5%;
+}
+
+.header__search-field {
+  background-color: #222;
+  color: #5d5d5d;
+}
+
+.header__catalog-showcase__items {
+  margin: 0 0 30px;
+  position: relative;
+}
+
+.header__dropbox {
+  @include flex-center;
+  background-color: $dark-gray;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 71.5%;
+}
+
+.header__dropbox-button {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid $white;
+  padding: 14px;
+}
+
+.header__dropbox-button:hover {
+  background-color: $slate-gray;
+}
+
+.header__dropbox-button:active {
+  border: 3px solid $ghost-white;
+}
+
+.header__dropbox-button:active .header__dropbox-title {
+  font-weight: 700;
+}
+
+.header__dropbox-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: $white;
+  padding: 0 0 0 11px;
+}
+
+.header__dropbox-img {
+  background: transparent;
+}
+
+.header__catalog-showcase__items:hover .header__dropbox {
+  opacity: 0.9;
+}

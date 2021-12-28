@@ -1,0 +1,22 @@
+.menu-sub-item__title {
+  padding: 20px 0 6px 33px;
+  text-transform: uppercase;
+  @include font(14px, 17px, 400);
+  color: $dark-pink;
+}
+
+.menu-sub-item__item {
+  padding: 6px 0 6px 55px;
+  color: $silver;
+}
+
+.menu-sub-item__item:hover {
+  background-color: $gray;
+  color: $white;
+  cursor: pointer;
+}
+
+.menu-sub-item__item:active {
+  background-color: $gray;
+  color: $night;
+}

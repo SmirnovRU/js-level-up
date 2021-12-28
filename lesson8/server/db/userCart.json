@@ -1,0 +1,27 @@
+{
+    "amount": 46600,
+    "countGoods": 2,
+    "contents": [
+        {
+            "quantity": 6,
+            "product_img": "img/fetured_items1.jpg",
+            "id_product": 1,
+            "product_name": "ellery x m'o capsule1",
+            "price": 51
+        },
+        {
+            "quantity": 5,
+            "product_img": "img/fetured_items2.jpg",
+            "id_product": 2,
+            "product_name": "ellery x m'o capsule2",
+            "price": 52
+        },
+        {
+            "quantity": 2,
+            "product_img": "img/fetured_items9.jpg",
+            "id_product": 9,
+            "product_name": "ellery x m'o capsule9",
+            "price": 58
+        }
+    ]
+}
